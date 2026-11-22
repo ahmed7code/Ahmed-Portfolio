@@ -1,0 +1,13 @@
+{
+  "name": "my-portfolio",
+  "homepage": "https://ahmed7code.github.io/My-Portfolio-React",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+}
