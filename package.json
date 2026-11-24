@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-  "homepage": "https://ahmed7code.github.io/My-Portfolio-React",
+  "homepage": "https://ahmed7code.github.io/My-Portfolio301",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,5 +9,8 @@
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
